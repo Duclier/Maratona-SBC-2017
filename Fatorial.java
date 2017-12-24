@@ -3,16 +3,16 @@ package aquecimento;
 import java.util.Scanner;
 
 /***************************************
- * Maratona de Programação da SBC - 2017            
+ * Maratona de ProgramaÃ§Ã£o da SBC - 2017            
  * Autor : Duclier do Nascimento Santos
  * Data : 24/12/2017
  * Problema : Fatorial(Aquecimento)
- * O fatorial de um número inteiro positivo N, denotado por N!, é definido como o produto do s inteiros
+ * O fatorial de um nÃºmero inteiro positivo N, denotado por N!, Ã© definido como o produto do s inteiros
  * positivos menores do que ou iguais a N. Por exemplo 4! = 4 x 3 x 2 x 1 = 24.
- * 	Dado um inteiro positivo N, você deve escrever um programa para determinar o menor número k tal que N = a1! + a2!...
- * +ak!, onde cada ai, para 1<= i <= k , é um número inteiro positivo.
- * 	Por exemplo, para N = 10 a resposta é 3, pois é possível escrever N como a soma de três números fatoriais: 10=3! + 
- * 2! + 2!. Para N = 25 a resposta é 2, pois é possível escrever N como a soma de dois números fatoriais: 25= 4! + 1!.
+ * 	Dado um inteiro positivo N, vocÃª deve escrever um programa para determinar o menor nÃºmero k tal que N = a1! + a2!...
+ * +ak!, onde cada ai, para 1<= i <= k , Ã© um nÃºmero inteiro positivo.
+ * 	Por exemplo, para N = 10 a resposta Ã© 3, pois Ã© possÃ­vel escrever N como a soma de trÃªs nÃºmeros fatoriais: 10=3! + 
+ * 2! + 2!. Para N = 25 a resposta Ã© 2, pois Ã© possÃ­vel escrever N como a soma de dois nÃºmeros fatoriais: 25= 4! + 1!.
  ****************************************/
 
 public class Kesimo {
@@ -25,7 +25,7 @@ public class Kesimo {
 		
 		Scanner s = new Scanner(System.in);
 		
-		System.out.println("Digite um número");
+		System.out.println("Digite um nÃºmero");
 		int n = s.nextInt();
 		int fat = 1,calc_fat = 0, menor_k=0;
 		
@@ -47,7 +47,7 @@ public class Kesimo {
 				fat=1;
 			}
 		}
-		System.out.println("K-ésimo fatorial:" + menor_k);
+		System.out.println("K-Ã©simo fatorial:" + menor_k);
 	}
 
 }
